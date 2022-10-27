@@ -6,5 +6,6 @@ instance_type = "e2-micro"
 instance_image = "centos-7-v20200403"
 vpc_name = "terraform-core-hi-network"
 additional_labels = {
-  "created_by" = "hyeinqa"
+  "created_by" = "hyeinqa",
+  "swqa" = "devops"
 }
